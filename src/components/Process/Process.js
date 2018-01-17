@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const Process = function(props){
 
-	return 
-		<section>
+	return (
+
+		<div>
 			<p> this is where the process overview will belong</p>
-		</section>
+		</div>
+		)
 }
 
 

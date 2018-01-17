@@ -1,10 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const About= function(props){
-	return
-		<section>
+	return (
+		<div>
 			<p> this is information about the company and potentially a call to action</p>
-		<section>
+		</div>
+		)
+		
 }
 
 

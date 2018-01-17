@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-const Purchase = function(props){
+class Purchase extends Component{
 	render(){
-		return{
-		<section>
+		return(
+		<div>
 			<p> this would be the payment input and purchase pages</p>
-		</section>
-		}
+		</div>
+		)
 	}
 	
 }

@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const Header = function(props){
 
-	return
-		<Header>
-			<section>
+	return(
+			<div>
 				<p> this is the header</p>
-			</section>
-		</Header>
+			</div>
+		)
 }
 
 

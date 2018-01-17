@@ -1,9 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
 const Footer = function(props){
-	return 
-		<section> this is the footer section</section>
+	return (
+		<div> 
+			<p>this is the footer section</p>
+		</div>
+		)
 }
 
 

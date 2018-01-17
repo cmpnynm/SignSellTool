@@ -1,18 +1,29 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Header from './components/Header/Header.js'
+import Aboutus from './components/Aboutus/About.js'
+import Footer from './components/Footer/Footer.js'
+import Process from './components/Process/Process.js'
+import Upload from './components/Upload/Upload.js'
+import Materials from './containers/Materials/Materials.js'
+import Pair from './containers/Pair/Pair.js'
+import Profile from './containers/Profile/Profile.js'
+import Purchase from './containers/Purchase/Purchase.js'
+
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Header />
+        <Aboutus />
+        <Process />
+        <Profile />
+        <Upload />
+        <Materials />
+        <Pair />
+        <Purchase />
+        <Footer />
       </div>
     );
   }
